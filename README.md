@@ -6,13 +6,13 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fad6792e-1c44-44db-bd79-ea74b42b0f89/deploy-status)](https://app.netlify.com/sites/feature-tour/deploys)
 
-## About this example site
+## About this example site(new Project)
 
 This site provides a path to get started learning about Netlify features.
 
 - 📚 [Docs Getting Started Tutorial](https://docs.netlify.com/get-started/?utm_medium=social&utm_source=github&utm_campaign=devex-ph&utm_content=devex-examples)
 
-## Speedily deploy your own version
+#### Speedily deploy your own version
 
 Deploy your own version of this example site by selecting the Deploy to Netlify Button below. This will automatically:
 
@@ -23,7 +23,7 @@ Deploy your own version of this example site by selecting the Deploy to Netlify 
 
 [![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify/netlify-feature-tour&utm_medium=social&utm_source=github&utm_campaign=devex&utm_content=devex-examples)
 
-## Install and run this example locally
+#### Install and run this example locally
 
 You can clone this example repo to explore its features and implementation and to run it locally.
 
@@ -45,3 +45,11 @@ npm install -g netlify-cli
 netlify dev
 
 ```
+
+## For project already existing
+- 📚 [Get started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
+
+## Netlify arcitecture diagram
+Below diagram is just from my understanding
+
+![](./netlify-architecture-diagram.svg)
