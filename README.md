@@ -76,9 +76,9 @@ Netlify CLI will look for this information in three places, in the following ord
 - in your site configuration in the Netlify UI, if continuous deployment is set up for the site.
 
 About how Netlify configure, please take a look at below diagram
-![](./doc/how-netlift-configure.svg)
+![](./doc/how-netlift-configure.png)
 
 ## Netlify arcitecture diagram
 Below diagram is just from my understanding
 
-![](./doc/netlify-architecture-diagram.svg)
+![](./doc/netlify-architecture-diagram.png)
