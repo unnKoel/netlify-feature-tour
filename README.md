@@ -82,3 +82,13 @@ About how Netlify configure, please take a look at below diagram
 Below diagram is just from my understanding
 
 ![](./doc/netlify-architecture-diagram.png)
+
+## Practises
+
+[Nelify-feature-tour](https://github.com/unnKoel/netlify-feature-tour)
+
+## References
+
+[Get started with Netlify Core](https://docs.netlify.com/get-started/)
+
+[Get started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
