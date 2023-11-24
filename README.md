@@ -47,28 +47,33 @@ netlify dev
 ```
 
 ## For project already existing
+
 - 📚 [Get started with Netlify CLI](https://docs.netlify.com/cli/get-started/)
 
   key takeaways as follows
+
   1. Authentication
-      
-      run command `netlify login`
+
+     run command `netlify login`
+
   2. Continuous deployment
-      
-      run command `netlify init` or `netlify init --manual` which leave you to manually add the key and webhook URL to your Git provider, those inforamation is offered by Netlify CLI
+
+     run command `netlify init` or `netlify init --manual` which leave you to manually add the key and webhook URL to your Git provider, those inforamation is offered by Netlify CLI
+
   3. Get started with Netlify Dev
 
-      > `Netlify Dev` brings the functionality of your Netlify production environment directly to your local machine. It provides a proxy server that includes edge logic for custom headers and redirects, environment variables, and Netlify Functions.
+     > `Netlify Dev` brings the functionality of your Netlify production environment directly to your local machine. It provides a proxy server that includes edge logic for custom headers and redirects, environment variables, and Netlify Functions.
 
-      run command `netlify dev` or `netlify dev --context production`
+     run command `netlify dev` or `netlify dev --context production`
 
   4. Run build locally
   5. Manual deployment
   6. Manage environment variables
 
-      Use the --context and --scope flags with your CLI commands to set contextual or scope values
+     Use the --context and --scope flags with your CLI commands to set contextual or scope values
 
 #### Configuration information
+
 Netlify CLI will look for this information in three places, in the following order:
 
 - in flags specified in the command itself.
@@ -76,12 +81,13 @@ Netlify CLI will look for this information in three places, in the following ord
 - in your site configuration in the Netlify UI, if continuous deployment is set up for the site.
 
 About how Netlify configure, please take a look at below diagram
-![](./doc/how-netlift-configure.png)
+![](./doc/how-netlift-configure.svg)
 
 ## Netlify arcitecture diagram
+
 Below diagram is just from my understanding
 
-![](./doc/netlify-architecture-diagram.png)
+![](./doc/netlify-architecture-diagram.svg)
 
 ## Practises
 
